@@ -19,8 +19,14 @@ driver = webdriver.Firefox(options=options)
 #driver.implicitly_wait(60)
 
 # Funktion Daten an Ulanzi senden
-def ulanzi_senden(url,data):
-    response = requests.post(url, json=data)
+def ulanzi_senden(url, data):
+    """Funktion Daten an Ulanzi senden"""
+    try:
+        response = requests.post(url, json=data)
+        response.raise_for_status()
+        #print("Erfolgreich gesendet: Statuscode =", response.status_code)
+    except requests.exceptions.RequestException as e:
+        print("Fehler beim Senden der Daten:", e)
 # Ende Funktion
 
 # Funktion "Cookies laden"
