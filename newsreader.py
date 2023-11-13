@@ -4,7 +4,7 @@ import json
 import time
 import requests
 
-# Settingd
+# Settings -> Hier URL des Ulanzi und gewünschte Anzahl der Nachrichten einstellen
 ulanzi_url = 'http://192.168.x.x'
 max_anzahl_news = 3
 cookies_file = 'solaranzeige-cookies.json'
