@@ -1,7 +1,7 @@
 # Ulanzi-Newsreader
 Anzeige "Neuer Beiträge des Solaranzeige.de Forums" auf der Ulanzi Clock!
 
-Das Script liest (z.B. per Cron zu jeder vollen Stunde aufgerufen!) die Headlines der "neuen Beiträge" aus dem Forum, macht durch "piepsen" (Sound kann man das echt nicht nennen!) auf sich aufmerksam und schiebt eine einstellbare Menge dieser "News" über's Ulanzi!?
+Das Script liest (z.B. per Cron zu jeder vollen Stunde aufgerufen!) die Headlines der "neuen Beiträge" aus dem Forum, macht durch "piepsen" (Sound kann man das echt nicht nennen!) auf sich aufmerksam und schiebt eine einstellbare Menge dieser "News" über's Ulanzi!
 
 Das Script benötigt folgende Abhängigkeiten:
 
